@@ -52,5 +52,5 @@ void SR04_GetData(void)
 		while(!Get());        //当Echo返回0，等待,变为1继续
 		start();//开始计时
 		while(Get());		  //当Echo为1计数并等待  ,变为0继续
-		distant = (float)get_stop()/20000.0;//单位为cm
+		distant = (float)get_stop()/(float)20000.0;//单位为cm
 }

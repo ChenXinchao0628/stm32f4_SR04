@@ -17,7 +17,7 @@
 extern float distant;
 extern uint32_t high_time;
 
-void for_delay_us(uint16_t nus); 
+void for_delay_us(uint16_t us); //注意根据主频修改参数
 void  Start(void);
 int Get(void);
 void start(void);
